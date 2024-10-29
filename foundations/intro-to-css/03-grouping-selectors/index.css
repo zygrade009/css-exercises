@@ -1,0 +1,12 @@
+.group{
+    font-size: 28px;
+    font-family:Helvetica, sans-serif
+}
+.g1{
+    background-color: black;
+    color: white;
+}
+.g2{
+   background-color: yellow;
+   color: black;
+}
