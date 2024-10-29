@@ -1,0 +1,15 @@
+.odd{
+    background-color:pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.element2{
+    color: blue;
+    font-size: 36px;
+}
+.fontsize{
+    font-size: 24px;
+}
+.element4{
+    font-weight: bold;
+    background-color: lightgreen;
+}
