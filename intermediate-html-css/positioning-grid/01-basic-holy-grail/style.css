@@ -46,3 +46,51 @@ html {
   color: white;
   text-align: left;
 }
+/* 
+.container{
+  display: grid;
+  grid-template: repeat(6,calc(100vh/6))/ repeat(5,calc(100vw/5));
+  grid-template-areas:"header header header header header"
+   "sidebar sidebar nav nav nav"
+   "sidebar sidebar article article article"
+   "sidebar sidebar article article article"
+   "sidebar sidebar article article article"
+   "footer footer footer footer footer";
+   gap: 10px;
+}
+
+.header{
+  grid-area: header;
+}
+.sidebar{
+  grid-area: sidebar;
+}
+.nav{
+  grid-area:nav;
+}
+.article{
+  grid-area:article;
+}
+.footer{
+  grid-area: footer;
+} */
+
+
+.container {
+  display: grid;
+  grid-template-columns: 300px 900px;
+  grid-template-rows: 100px 100px 500px 100px;
+  gap: 15px;
+}
+
+.header {
+  grid-column: 1 / 3;
+}
+
+.sidebar {
+  grid-row: 2 / 4;
+}
+
+.footer {
+  grid-column: 1 / 3;
+}
