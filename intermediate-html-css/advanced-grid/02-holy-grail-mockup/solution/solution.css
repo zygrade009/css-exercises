@@ -104,14 +104,15 @@
   grid-column: 1 / 3;
   display: grid;
   grid-template-columns: 1fr 2fr;
+
 }
 
 .logo {
-  justify-self: start;
+  justify-self: start; /* new */
 }
 
 .menu {
-  align-self: center;
+  align-self: center;/* new */
 }
 
 .menu ul {
